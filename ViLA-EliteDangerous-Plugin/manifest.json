@@ -1,0 +1,5 @@
+﻿{
+    "entrypoint": "EliteDangerous.dll",
+    "version": "0.0.2",
+    "releases": "https://github.com/k0pfweh/ViLA-EliteDangerous-Plugin"
+}
