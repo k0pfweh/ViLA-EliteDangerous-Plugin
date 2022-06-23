@@ -1,0 +1,315 @@
+﻿{
+    "$schema": "https://raw.githubusercontent.com/charliefoxtwo/ViLA/main/Configuration/Schema/ActionConfiguration.json.schema",
+    "devices": {
+        "025B": {
+            "OnBoard": {
+                "1": [
+                    {
+                        "color": "000000",
+                        "trigger": {
+                            "id": "ELITE_FA_OFF",
+                            "value": false,
+                            "comparator": "EqualTo"
+                        }
+                    },
+                    {
+                        "color": "ff0000",
+                        "trigger": {
+                            "id": "ELITE_FA_OFF",
+                            "value": true,
+                            "comparator": "EqualTo"
+                        }
+                    }
+                ],
+                "2": [
+                    {
+                        "color": "000000",
+                        "trigger": {
+                            "id": "ELITE_DOCKED",
+                            "value": false,
+                            "comparator": "EqualTo"
+                        }
+                    },
+                    {
+                        "color": "000000",
+                        "trigger": {
+                            "id": "ELITE_DOCKED",
+                            "value": true,
+                            "comparator": "EqualTo"
+                        }
+                    }
+                ],
+                "3": [
+                    {
+                        "color": "000000",
+                        "trigger": {
+                            "id": "ELITE_DOCKED",
+                            "value": false,
+                            "comparator": "EqualTo"
+                        }
+                    },
+                    {
+                        "color": "000000",
+                        "trigger": {
+                            "id": "ELITE_DOCKED",
+                            "value": true,
+                            "comparator": "EqualTo"
+                        }
+                    }
+                ],
+                "4": [
+                    {
+                        "color": "000000",
+                        "trigger": {
+                            "id": "ELITE_DOCKED",
+                            "value": false,
+                            "comparator": "EqualTo"
+                        }
+                    },
+                    {
+                        "color": "000000",
+                        "trigger": {
+                            "id": "ELITE_DOCKED",
+                            "value": true,
+                            "comparator": "EqualTo"
+                        }
+                    }
+                ],
+                "5": [
+                    {
+                        "color": "000000",
+                        "trigger": {
+                            "id": "ELITE_FUELSCOOP",
+                            "value": false,
+                            "comparator": "EqualTo"
+                        }
+                    },
+                    {
+                        "color": "404000",
+                        "trigger": {
+                            "id": "ELITE_FUELSCOOP",
+                            "value": true,
+                            "comparator": "EqualTo"
+                        }
+                    }
+                ],
+                "6": [
+                    {
+                        "color": "000000",
+                        "trigger": {
+                            "id": "ELITE_FSD_MASSLOCKED",
+                            "value": false,
+                            "comparator": "EqualTo"
+                        }
+                    },
+                    {
+                        "color": "800000",
+                        "trigger": {
+                            "id": "ELITE_FSD_MASSLOCKED",
+                            "value": true,
+                            "comparator": "EqualTo"
+                        }
+                    }
+                ],
+                "7": [
+                    {
+                        "color": "000000",
+                        "trigger": {
+                            "id": "ELITE_DOCKED",
+                            "value": false,
+                            "comparator": "EqualTo"
+                        }
+                    },
+                    {
+                        "color": "000000",
+                        "trigger": {
+                            "id": "ELITE_DOCKED",
+                            "value": true,
+                            "comparator": "EqualTo"
+                        }
+                    }
+                ],
+                "8": [
+                    {
+                        "color": "000000",
+                        "trigger": {
+                            "id": "ELITE_LDG_DWN",
+                            "value": false,
+                            "comparator": "EqualTo"
+                        }
+                    },
+                    {
+                        "color": "000080",
+                        "trigger": {
+                            "id": "ELITE_LDG_DWN",
+                            "value": true,
+                            "comparator": "EqualTo"
+                        }
+                    }
+                ],
+                "9": [
+                    {
+                        "color": "000000",
+                        "trigger": {
+                            "id": "ELITE_CS_DEPLOYED",
+                            "value": false,
+                            "comparator": "EqualTo"
+                        }
+                    },
+                    {
+                        "color": "ff0000",
+                        "trigger": {
+                            "id": "ELITE_CS_DEPLOYED",
+                            "value": true,
+                            "comparator": "EqualTo"
+                        }
+                    }
+                ],
+                "10": [
+                    {
+                        "color": "000000",
+                        "trigger": {
+                            "id": "ELITE_LDG_DWN",
+                            "value": false,
+                            "comparator": "EqualTo"
+                        }
+                    },
+                    {
+                        "color": "000080",
+                        "trigger": {
+                            "id": "ELITE_LDG_DWN",
+                            "value": true,
+                            "comparator": "EqualTo"
+                        }
+                    }
+                ],
+                "11": [
+                    {
+                        "color": "000000",
+                        "trigger": {
+                            "id": "ELITE_DOCKED",
+                            "value": false,
+                            "comparator": "EqualTo"
+                        }
+                    },
+                    {
+                        "color": "000000",
+                        "trigger": {
+                            "id": "ELITE_DOCKED",
+                            "value": true,
+                            "comparator": "EqualTo"
+                        }
+                    }
+                ],
+                "12": [
+                    {
+                        "color": "000000",
+                        "trigger": {
+                            "id": "ELITE_DOCKED",
+                            "value": false,
+                            "comparator": "EqualTo"
+                        }
+                    },
+                    {
+                        "color": "000000",
+                        "trigger": {
+                            "id": "ELITE_DOCKED",
+                            "value": true,
+                            "comparator": "EqualTo"
+                        }
+                    }
+                ],
+                "13": [
+                    {
+                        "color": "000000",
+                        "trigger": {
+                            "id": "ELITE_NIGHTVISION",
+                            "value": false,
+                            "comparator": "EqualTo"
+                        }
+                    },
+                    {
+                        "color": "00ff00",
+                        "trigger": {
+                            "id": "ELITE_NIGHTVISION",
+                            "value": true,
+                            "comparator": "EqualTo"
+                        }
+                    }
+                ],
+                "14": [
+                    {
+                        "color": "000000",
+                        "trigger": {
+                            "id": "ELITE_HP_DEPLOYED",
+                            "value": false,
+                            "comparator": "EqualTo"
+                        }
+                    },
+                    {
+                        "color": "ff0000",
+                        "trigger": {
+                            "id": "ELITE_HP_DEPLOYED",
+                            "value": true,
+                            "comparator": "EqualTo"
+                        }
+                    }
+                ],
+                "15": [
+                    {
+                        "color": "000000",
+                        "trigger": {
+                            "id": "ELITE_DOCKED",
+                            "value": false,
+                            "comparator": "EqualTo"
+                        }
+                    },
+                    {
+                        "color": "000000",
+                        "trigger": {
+                            "id": "ELITE_DOCKED",
+                            "value": true,
+                            "comparator": "EqualTo"
+                        }
+                    }
+                ],
+                "16": [
+                    {
+                        "color": "000000",
+                        "trigger": {
+                            "id": "ELITE_LIGHT_ON",
+                            "value": false,
+                            "comparator": "EqualTo"
+                        }
+                    },
+                    {
+                        "color": "00ff00",
+                        "trigger": {
+                            "id": "ELITE_LIGHT_ON",
+                            "value": true,
+                            "comparator": "EqualTo"
+                        }
+                    }
+                ],
+                "17": [
+                    {
+                        "color": "ff0000",
+                        "trigger": {
+                            "id": "ELITE_ANALYSISMODE",
+                            "value": false,
+                            "comparator": "EqualTo"
+                        }
+                    },
+                    {
+                        "color": "0000ff",
+                        "trigger": {
+                            "id": "ELITE_ANALYSISMODE",
+                            "value": true,
+                            "comparator": "EqualTo"
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}
